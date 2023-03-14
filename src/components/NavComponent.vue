@@ -2,12 +2,11 @@
     <div>
         <nav>
             <img alt="Vue logo" src="../assets/logo.png" class="logo" />
-            <h1>The Nav</h1>
-            <ul>
-                <li>Home</li>
-                <li>Repos</li>
-                <li>Profile</li>
-            </ul>
+            <div>
+                <router-link to="/">Home</router-link>
+                <router-link to="/repos">Repos</router-link>
+                <router-link to="/profile">Profile</router-link>
+            </div>
         </nav>
     </div>
 </template>
@@ -18,7 +17,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 .logo{
 width: 5rem;
 }
