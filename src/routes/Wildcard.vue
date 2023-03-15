@@ -14,7 +14,7 @@
 </script>
 
 <style scoped>
-.errorPage{
+/* .errorPage{
     width: 95%;
     margin: 0 auto;
     text-align: center;
@@ -22,6 +22,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+.errorPage{
+    height: 78vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
 }
 .errorPage h1{
     font-size: 10rem;
