@@ -41,7 +41,7 @@
 }
 .errorPage a{
     background-color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     border-radius: 10rem;
     padding: .8rem .8rem;
     text-decoration: none;
