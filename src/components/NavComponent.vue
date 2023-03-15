@@ -46,4 +46,17 @@ nav {
 .logo {
     width: 4rem;
 }
+
+@media(max-width:450px){
+    .nav-links a {
+    font-size: 1.1rem;
+}
+    .nav-links a:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.logo {
+    width: 2rem;
+}
+}
 </style>
