@@ -15,6 +15,8 @@
 
 <style scoped>
 .errorPage{
+    width: 95%;
+    margin: 0 auto;
     text-align: center;
     position: fixed;
     top: 50%;
@@ -52,6 +54,15 @@
 .errorPage a:hover{
     background-color: black;
     color: white;
+}
+
+@media(max-width:450px){
+    .errorPage h1{
+        font-size: 6rem
+    }
+    .errorPage p{
+        font-size: 1rem
+    }
 }
 
 </style>
