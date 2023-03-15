@@ -67,6 +67,12 @@
     color: white;
 }
 
+@media(max-width:800px){
+        .errorPage{
+            margin-top: 5rem;
+        }
+     }
+
 @media(max-width:450px){
     .errorPage h1{
         font-size: 6rem
