@@ -42,6 +42,7 @@
     font-size: 2.1rem;
     margin-bottom: 1.5rem;
     font-weight: 900;
+    text-align: center;
 }
 .errorPage p{
     font-size: 1.3rem;
