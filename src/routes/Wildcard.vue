@@ -67,9 +67,9 @@
     color: white;
 }
 
-@media(max-width:800px){
+@media(min-width:780px){
         .errorPage{
-            margin-top: 5rem;
+            margin-top: 4rem;
         }
      }
 
