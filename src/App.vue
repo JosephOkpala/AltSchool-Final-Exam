@@ -1,5 +1,5 @@
 <template>
-    <NavComponent/>
+  <NavComponent/>
   <router-view></router-view>
 </template>
 
