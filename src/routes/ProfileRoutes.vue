@@ -85,6 +85,11 @@ export default {
   margin-top: 3rem;
 }
 
+.profile-img{
+  width: 5rem;
+  border-radius: 50%;
+}
+
 .flex{
   display: flex;
   align-items: center;
