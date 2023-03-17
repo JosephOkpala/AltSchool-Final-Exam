@@ -5,7 +5,7 @@
             Hello my name is Joseph
         </h1>
         <p>
-            This is a project for the fourth semester exam in AltSchool Africa. In this project I am going to be making a request from the GitHub API to be able to display a list of all my repositories and other information. I would also implement a wildcard route for error pages.
+            This is a project for the third semester exam in AltSchool Africa. In this project I am going to be making a request from the GitHub API to be able to display a list of all my repositories and other information. I would also implement a wildcard route for error pages.
         </p>
         <router-link to="/repos">Go to Repositories</router-link>
     </div>
