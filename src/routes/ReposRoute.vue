@@ -121,7 +121,6 @@
 }
 
 .pagination{
-  border: 2px solid red;
   text-align: center;
   width: 90;
   margin-top: 3rem auto 0rem auto;
