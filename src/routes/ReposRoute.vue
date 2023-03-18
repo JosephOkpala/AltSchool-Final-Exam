@@ -138,6 +138,13 @@
 .pagination-button{
   padding: .6rem 1rem;
   border: none;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.pagination-button:enabled:hover{
+  background-color: black;
+  color: white;
 }
 
 .prev-button:disabled{
